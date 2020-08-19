@@ -3,7 +3,7 @@ Tag ditulis berpasangan, ada pembuka <...> dan Penutup </...>
     Contoh :
 <p>Hello World!</p>
 
-Dasar-dasar Tag :
+Dasar-dasar Tag (tag wajib) :
 <!doctype html>     deklarasi tipe dokumen
 <html>              tag utama html
 <head>              membuat bagian kepala dokumen
