@@ -1,0 +1,5 @@
+# STRUKTUR-WEBSITE
+
+1.0 HTML
+2.0 CSS
+3.0 Javascript
