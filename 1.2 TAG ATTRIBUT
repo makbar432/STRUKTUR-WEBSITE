@@ -1,0 +1,44 @@
+*STRUKTUR TAG :
+                <namatag attibut="nilai">
+1 atribut       <a href="https://google.com">
+3 atribut       <body bgcolor="lightblue" id="myid" class="myclass">
+
+*JENIS TAG ATTRIBUT
+https://www.w3schools.com/Tags/ref_attributes.asp
+
+1. ATRIBUT GLOBAL
+yang bisa ditambahkan padasemua elemen html
+    acceskey ------- Menentukan tombol shortcut untuk mengaktifkan atau fokus pada elemen
+    class ---------- menentukan class CSS yg akan digunakan
+    hidden --------- untuk menyembunyikan elemen
+    id  ------------ menentukan id untuk elemen
+    dir ------------ Menentukan arah teks dari elemen (kiri ke kanan atau sebaliknya)
+    draggable ------ Menentukan apakah elemen bisa di drag atau tidak
+    lang ----------- language
+    spellcheck ----- Menentukan apakah isi elemen harus dilakukan pengejaan grammer atau tudak
+    style ---------- menyisipkan inline CSS
+    tabindex ------- Menentukan urutan atau indeks tab dari elemen (saat tombol tab ditekan)
+    title ---------- Menentukan informasi tambahan tentang elemen
+    translate ------ Menentukan apakah konten dari elemen bisa diterjemahkan atau tidak
+
+2. ATTRIBUT EVENT
+atribut yang digunakan untuk menentukan aksi yang akan dilakukan saat terjadi sesuatu pada elemen.
+Atribut ini nanti akan banyak digunakan pada pemrograman Javascript.
+https://www.w3schools.com/tags/ref_eventattributes.asp
+
+    onbeforeprint -- sebelum dokumen dicetak
+    onafterprint --- setelah dokumen dicetak
+    onbeforeunload - sebelum saat dokumen tidak ter-load
+    onerror -------- saat terjadi error
+    onload --------- setelah loading selesai
+    onmessage ------ saat ada pesan
+    onoffline ------ saat tiba-tiba onoffline
+    ononline ------- saat tiba-tiba ononline
+    onpagehide ----- saat user tidak sedang membuka halaman web
+    onpageshow ----- saat user membuka kembali halaman web
+    onpopstate ----- saat history browser berubah
+    onresize ------- saat ukuran jendela browser berubah
+    onstorage ------ saat area penyimpanan (Web Storage) di-update
+    onunload ------- saat web browser ditutup
+
+

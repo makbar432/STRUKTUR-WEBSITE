@@ -1,16 +1,64 @@
 Tag Adalah penanda awalan dan akhiran dari sebuah element di HTML
 Tag ditulis berpasangan, ada pembuka <...> dan Penutup </...>
-    Contoh :
-<p>Hello World!</p>
 
-Dasar-dasar Tag (tag wajib) :
-<!doctype html>     deklarasi tipe dokumen
-<html>              tag utama html
-<head>              membuat bagian kepala dokumen
-<title>             judul web pada halaman
-<body>              membuat bagian badan dokumen
-<h1-h6>             heading pada artikel
-<p>                 membuat paragraf
-<!--comment-->      membuat komentar
+Contoh :
+    <p>Hello World!</p>
 
-Macam-macam Tag :
+*STRUKTUR TAG :
+                <namatag attibut="nilai">
+1 atribut       <a href="https://google.com">
+3 atribut       <body bgcolor="lightblue" id="myid" class="myclass">
+https://www.w3schools.com/Tags/
+    
+
+*TAG WAJIB :
+<!doctype html> ---- deklarasi tipe dokumen
+<html> ------------- tag utama html
+<head> ------------- membuat bagian kepala dokumen
+<title> ------------ judul web pada halaman
+<body> ------------- membuat bagian badan dokumen
+<h1-h6> ------------ heading pada artikel
+<p> ---------------- membuat paragraf
+<!--comment--> ----- membuat komentar
+
+*JENIS TAG :
+
+1. TAG HEAD
+    <meta>
+2. TAG BODY
+TEXT
+    <h1-h6>
+    <p>
+PENDUKUNG TEXT
+    <br> ---------- baris baru
+    <hr> ---------- garis horizontal
+    <em> ---------- italic
+    <strong> ------ bold
+LINK
+    <a href="...">
+    <img src="...">
+LIST
+    <ul> ---------- Un-orderlist, List tak terurut (circle,square)
+    <ol> ---------- Orderlist, List Terurut (1,i,a)
+    <li> ---------- List item (bagian dalam ul dan ol)
+    <dl> ---------- Definition List
+    <dt>
+    <dd>
+TABLE
+    <table>
+    <thead>
+    <tbody>
+FORM
+    <form> -------- form field
+    <input> ------- text field
+    <select> ------ combo box (checkbox)
+    <button>
+SCRIPT (javacript)
+    <script>
+OBJECT (object multimedia,flash)
+    <object>
+GROUPING (membuat grup pada tag-tag html)
+    <div>
+    <span>
+COMMENT (komentar pada tag) 
+    <!-- comment -->

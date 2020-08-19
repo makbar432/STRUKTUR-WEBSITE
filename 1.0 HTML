@@ -1,16 +1,29 @@
 HTML
 HyperText Markup Language
+HTML atau HyperText Markup Language merupakan sebuah bahasa markah untuk membuat halaman web.
 
-halaman pertama html
+halaman pertama html :
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World!</title>
-</head>
-<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+     <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Hello World!</title>
+    </head>
+    <body>
     
-</body>
-</html>
+    </body>
+    </html>
+
+TEXT EDITOR (VS CODE)
+untuk memulis kode-kode html
+
+Plugin :
+1. Emmet
+    !+TAB           untuk membuat default halaman html
+    ul>li*3+TAB     membuat ul yg didalamnya ada li 3 buah
+2. Linter
+untuk mengecek kodingan error HTML dan CSS
+3.Intellisence
+auto-complete (saran yg mau diketik)
