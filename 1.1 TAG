@@ -7,8 +7,10 @@ Dasar-dasar Tag (tag wajib) :
 <!doctype html>     deklarasi tipe dokumen
 <html>              tag utama html
 <head>              membuat bagian kepala dokumen
-<title>             judul web pada tab
+<title>             judul web pada halaman
 <body>              membuat bagian badan dokumen
 <h1-h6>             heading pada artikel
 <p>                 membuat paragraf
 <!--comment-->      membuat komentar
+
+Macam-macam Tag :
