@@ -1,0 +1,14 @@
+Tag Adalah penanda awalan dan akhiran dari sebuah element di HTML
+Tag ditulis berpasangan, ada pembuka <...> dan Penutup </...>
+    Contoh :
+<p>Hello World!</p>
+
+Dasar-dasar Tag :
+<!doctype html>     deklarasi tipe dokumen
+<html>              tag utama html
+<head>              membuat bagian kepala dokumen
+<title>             judul web pada tab
+<body>              membuat bagian badan dokumen
+<h1-h6>             heading pada artikel
+<p>                 membuat paragraf
+<!--comment-->      membuat komentar
