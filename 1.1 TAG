@@ -40,10 +40,10 @@ LINK
 LIST
     <ul> ---------- Un-orderlist, List tak terurut (circle,square)
     <ol> ---------- Orderlist, List Terurut (1,i,a)
-    <li> ---------- List item (bagian dalam ul dan ol)
+    <li> ---------- List item (bagian dari ul dan ol)
     <dl> ---------- Definition List
-    <dt>
-    <dd>
+    <dt> ---------- Definition Term, bagian dari dl (term)
+    <dd> ---------- Definition Description, bagian dari dl setelah dt (decription), text mditambahkan indentasi
 TABLE
     <table>
     <thead>
