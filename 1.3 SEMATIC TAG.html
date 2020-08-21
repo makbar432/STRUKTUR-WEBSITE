@@ -1,0 +1,78 @@
+SEMATIC TAG 
+
+Header ------------- untuk bagian halaman web yang merupakan header.
+                     Tag ini bisa muncul lebih dari 1 kali, tergantung kebutuhan.
+
+Nav ---------------- digunakan sebagai ‘container‘ dari menu navigasi.
+
+Section ------------ digunakan untuk memisahkan bagian-bagian dari struktur web.
+                     Tag ini bisa digunakan sebagai container untuk kumpulan artikel, gallery, atau bagian lain dari halaman web yang perlu pemisahan.
+
+Main --------------- cocok digunakan untuk menandakan bagian utama dari sebuah halaman.
+                     Berbeda dari tag <section>, tag <main> umumnya hanya digunakan 1 kali untuk bagian paling penting, yang biasanya berupa konten/artikel utama.
+
+
+Article ------------- bertujuan untuk menampung konten web yang merupakan artikel.
+                      Umumnya tag ini berada di dalam tag <section> atau <main>.
+                      Tag ini cocok sebagai container untuk artikel dalam sebuah blog.
+
+Aside --------------- untuk menandai bagian web yang bukan berisi konten utama, tetapi memiliki kaitan dengan artikel yang saat ini ditampilkan.
+                      Bagian paling pas untuk tag <aside> adalah sidebar.
+
+Footer --------------- digunakan pada bagian bawah halaman, dimana kita menampilkan beberapa informasi mengenai website.
+
+
+SUSUNAN SEMATIC TAG
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Belajar HTML5</title>
+</head>
+ 
+<body>
+  <header>
+    <h1>Judul Website</h1>
+    <img src="logo_website.jpg" />
+  </header>
+ 
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+    
+  <section>
+    <article>
+      <header>
+        <h1>Judul Artikel 1</h1>
+        <h2>Sub Judul Artikel 1</h2>
+      </header>
+        <p>...Ini adalah isi dari artikel 1...</p>
+    </article>
+    <article>
+      <header>
+        <h1>Judul Artikel 2</h1>
+        <h2>Sub Judul Artikel 2</h2>
+      </header>
+        <p>...Ini adalah isi dari artikel 2...</p>
+    </article>
+  </section>
+ 
+  <aside>
+    <h1>Artikel Terbaru</h1>
+    <ul>
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+    </ul>
+  </aside>
+ 
+  <footer>
+    <p>Footer - Copyright Duniailkom 2014</p>
+  </footer>
+</body>
+</html>
